@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", system-ui;
+    background-color: antiquewhite;
+
+}
+
+.container {
+    margin: 80px;
+  
+}
+/* headerr--------------------------------------------------------------------- */
+header {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    margin-left: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-links a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.header-image {
+    height: 500px;
+}
+
+#thread {
+    width: 100%;
+    height: 500px;
+}
+/* aboutus------------------------------------------------------------------------- */
+#AboutUs{
+  
+  padding: 150px 150px;
+  background-color: rgb(234, 197, 152);
+    
+}
+.About{
+    display: flex;
+}
+
+.AboutContent{
+   margin-right: 30px;
+   text-align: right;
+}
+
+.AboutContent h2{
+    font-size: 50px;
+}
+
+.aboutlink{
+    text-decoration: none;
+    background-color: rgb(107, 70, 25);
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 1px;
+    font-size: 30px;
+}
+.aboutlink:hover {
+    color: rgb(252, 251, 251);
+    text-decoration: underline;
+}
+
+#aimg{
+    width: 500px;
+    height: 400px;
+}
+/* galelry------------------------------------------------------------------------------------------------- */
+
+#photoGallery{
+    background-color:white;
+    padding: 80px 150px;
+    text-align: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+.gallery img{
+    width: 330px;
+}
+#img1{
+   
+    height: 400px;
+}
+#img2{
+   
+    height: 200px;
+}
+#img3{
+   
+    height: 450px;
+}
+#img4{
+   
+    height: 200px;
+    margin-top: -30px;
+}
+#img5{
+   
+    height: 400px;
+    margin-top: -230px;
+}
+#img6{
+    
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* services---------------------------------------------------------------------------------------- */
+
+#servicesprovided{
+    background-color: rgb(251, 216, 173) ;
+    padding: 1px 150px;
+    text-align: center;
+    /* display: flex; */
+}
+.services{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.title a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.title a:hover{
+    color: rgb(252, 251, 251);
+    text-decoration: underline;
+}
+.logocollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .logos{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.logo1{
+    width: 200px;
+    height: 200px;
+}
+.logo2{
+    width: 200px;
+    height: 200px;
+}
+.logo3{
+    width: 200px;
+    height: 200px;
+}
+.logo4{
+    width: 200px;
+    height: 200px;
+}
+h6{
+    font-size: 15px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/* footer-------------------------------------------------------------------------- */
+.company{
+    background-color: rgb(237, 208, 171);
+    padding: 40px 160px;
+    text-align: center;
+}
+.footer-info{
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-between; 
+    align-items: center;
+}
+.footer-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.footer-links a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-links a:hover {
+    color: rgb(252, 251, 251);
+    text-decoration: underline;
+
+}
+.logo-footer{
+    /* margin-left: 100px; */
+}
+#footerlogo{
+    width: 300px;
+    height: 300px;
+}
+.iconCollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5%; */
+}
+.icons{
+    /* border: solid; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 10px; */
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icons:hover{
+    background-image: linear-gradient(to bottom right, rgb(215, 207, 185),rgb(219, 181, 134));
+}
+#credits{
+    text-align: center;
+    font-weight: 700px;
+
+}
+.arrow{
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
